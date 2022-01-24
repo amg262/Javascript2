@@ -1,0 +1,22 @@
+Input
+- column
+- newGame
+
+
+
+Process
+- drop
+    - check for full column
+- check4win
+- endGame
+- changePlayer
+- createBoard
+- reset
+
+
+
+Output
+- winner
+- board
+- currentPlayer
+-

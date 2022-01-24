@@ -1,0 +1,42 @@
+#board table {
+    border-collapse: collapse;
+}
+
+#board table tbody {
+    background-color: yellow;
+}
+
+#board td {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+#board td .space, .drop, .player1, .player2 {
+    border-radius: 50%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+
+.drop {
+    background-color: black;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.drop:disabled {
+    display: none;
+}
+
+.player1 {
+    background-color: black;
+}
+
+.player2 {
+    background-color: red;
+}

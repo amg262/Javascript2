@@ -28,12 +28,12 @@
     }, false);
 })();
 
-$(document).ready(function () {
-    $('.btnNext').click(function () {
-        $('.nav-tabs .active').parent().next('li').trigger('click');
-    });
-
-    $('.btnPrevious').click(function () {
-        $('.nav-tabs .active').parent().prev('li').trigger('click');
-    });
-});
+// $(document).ready(function () {
+//     $('.btnNext').click(function () {
+//         $('.nav-tabs .active').parent().next('li').trigger('click');
+//     });
+//
+//     $('.btnPrevious').click(function () {
+//         $('.nav-tabs .active').parent().prev('li').trigger('click');
+//     });
+// });
